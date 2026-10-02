@@ -68,9 +68,9 @@ variable "db_password" {
   type        = string
   sensitive   = true
 }
-
 variable "db_tier" {
   description = "Cloud SQL machine tier"
   type        = string
-  default     = "db-f1-micro"
+  default     = "db-perf-optimized-N-2"
 }
+
