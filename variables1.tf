@@ -48,7 +48,7 @@ variable "private_ip_prefix_length" {
 variable "db_instance_name" {
   description = "Cloud SQL PostgreSQL instance name"
   type        = string
-  default     = "postgres-instance"
+  default     = "postgres-instance-02"
 }
 
 variable "db_name" {
